@@ -25,7 +25,6 @@ void tegnfigur(list_t* list)
         return;
 
     koordinat_t* slutt = list_next(iter);
-    slutt = list_next(iter);
     if (slutt == NULL)
         return;
 
